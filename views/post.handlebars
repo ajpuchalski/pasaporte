@@ -1,0 +1,18 @@
+<table>
+		<thead>
+			<th></th>
+            <th>Message</th>
+			<th>AuthorID</th>
+		</thead>
+
+		<tbody>
+			{{#each Posts}}
+			<tr>
+				<td>{{this.Message}}</td>
+				<td>{{this.AuthorID}}</td>
+			</tr>
+			{{/each}}
+		</tbody>
+
+
+	</table>
